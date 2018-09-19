@@ -103,6 +103,9 @@ public class WaveSimulatorFrame extends JFrame implements WindowListener {
         // Let's also reduce the FPS to analyze the each frame easier.
         waveEngine.setFramesPerSecond(5);
         
+        // The following method adjusts the contrast.
+        // Decrease this value a bit so we will be less distracted with
+        // the echos around the pool.
         waveEngine.setAmplitudeMultiplier(10);
 
         // Enable the oscillator so it will start to emit waves.
