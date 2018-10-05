@@ -29,10 +29,6 @@ import java.util.concurrent.locks.ReentrantLock;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author Mustafa Sami Salt <https://github.com/mss1451>
- */
 public class WaveEngine {
 
     private final int MAX_NUMBER_OF_THREADS = 32;

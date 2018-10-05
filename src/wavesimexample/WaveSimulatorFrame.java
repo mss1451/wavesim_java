@@ -152,7 +152,7 @@ public class WaveSimulatorFrame extends JFrame implements WindowListener {
         // by getData() call. Doing so will either result in a program error or
         // calculation errors.
         waveEngine.unlock();
-
+    
         // WaveEngine may be set to call a method every time it makes a
         // depiction of the pool. In such a method, we may copy the data
         // that is passed from the WaveEngine to the image data, and signal
