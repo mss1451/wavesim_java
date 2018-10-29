@@ -3,7 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/MSI/Documents/git-repos/wavesim_java/src/wavesimulatorjava/RenderEventListener.java</file>
+            <file>file:/C:/Users/MSI/Documents/git-repos/wavesim_java/src/wavesimulatorjava/CoThreadMission.java</file>
+            <file>file:/C:/Users/MSI/Documents/git-repos/wavesim_java/src/wavesimulatorjava/Rectangle.java</file>
+            <file>file:/C:/Users/MSI/Documents/git-repos/wavesim_java/src/wavesimulatorjava/Color.java</file>
+            <file>file:/C:/Users/MSI/Documents/git-repos/wavesim_java/src/wavesimulatorjava/ParticleAttribute.java</file>
             <file>file:/C:/Users/MSI/Documents/git-repos/wavesim_java/src/wavesimexample/WaveSimulatorFrame.java</file>
+            <file>file:/C:/Users/MSI/Documents/git-repos/wavesim_java/src/wavesimulatorjava/WaveEngine.java</file>
+            <file>file:/C:/Users/MSI/Documents/git-repos/wavesim_java/src/wavesimulatorjava/Point.java</file>
+            <file>file:/C:/Users/MSI/Documents/git-repos/wavesim_java/src/wavesimulatorjava/CoThreadRange.java</file>
+            <file>file:/C:/Users/MSI/Documents/git-repos/wavesim_java/src/wavesimulatorjava/OscillatorSource.java</file>
         </group>
     </open-files>
 </project-private>

@@ -955,8 +955,6 @@ public class WaveEngine {
             // We will find out the average height of the 8 neighbor particles.
             // So that we will know where the current particle will be attracted to.
             // "heights" is the sum of all the height values of neighbor particles.
-            // Don't know why double types result in faster calculations at this point.
-            // Maybe CPU and XMM registers hold more data together so less RAM access takes place?
             double heights = 0.0;
             final double iplus1modsz = (index + 1) % size;
             final double imodsz = index % size;
@@ -1012,7 +1010,12 @@ public class WaveEngine {
                 height_difference = vd[index] - heights;
                 acceleration = -height_difference / vdm[index];
             }
-
+            // Keep velocity under a velocity which will prevent
+            // violation of conservation energy and chaotic noise.
+            if (acceleration >= 0)
+                acceleration = clamp(acceleration, acceleration, -height_difference * 2);
+            else
+                acceleration = clamp(acceleration, -height_difference * 2, acceleration);
             // Acceleration feeds velocity.
             vdv[index] += acceleration;
 
